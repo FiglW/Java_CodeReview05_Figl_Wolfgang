@@ -1,0 +1,27 @@
+-- returns all values from table User:
+
+SELECT * FROM `User`;
+
+
+
+--return selected 'user' from table User:
+
+SELECT user_ID, firstName, lastName
+FROM `user`;
+
+
+--returns user with the user first name 'Julia'
+
+
+SELECT user_ID, firstName, email
+FROM `user`
+WHERE firstName = 'Julia';
+
+
+-- returns the last name 'Testmann':
+
+SELECT user_ID,
+ firstName, 
+lastName FROM `user` 
+WHERE lastName = 'Testmann'
+
